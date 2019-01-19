@@ -1,0 +1,22 @@
+{
+  "git.confirmSync": false,
+  "workbench.statusBar.feedback.visible": false,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "prettier.eslintIntegration": true,
+  "prettier.tslintIntegration": true,
+  "workbench.sideBar.location": "left",
+  "eslint.validate": ["javascript", "javascriptreact"],
+  "eslint.autoFixOnSave": true,
+  "breadcrumbs.enabled": true,
+  "tslint.enable": true,
+  "eslint.enable": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "prettier.disableLanguages": ["js"],
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "none"
+}

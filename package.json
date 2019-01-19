@@ -1,0 +1,42 @@
+{
+  "name": "vue-ts-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jsBuilt/index.js",
+  "scripts": {
+    "start": "node ./jsBuilt/src/app.js",
+    "build": "./node_modules/typescript/bin/tsc",
+    "test": "npm run build && mocha ./jsBuilt/tests/*.js --exit",
+    "lint": "tslint -c tslint.json --project tsconfig.json",
+    "global": "npm run build && npm install -g",
+    "scratch": "npm install && npm run global"
+  },
+  "bin": {
+    "create-front": "./jsBuilt/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.1",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/figlet": "^1.2.0",
+    "@types/inquirer": "0.0.43",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.2",
+    "@types/shelljs": "^0.8.1",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "prettier": "^1.14.3",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.2.2"
+  }
+}

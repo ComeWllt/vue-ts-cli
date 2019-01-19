@@ -1,0 +1,1 @@
+{"symbols":{"Server":{"hasNamespace":false,"type":0,"moduleName":"Server","relativePath":"src/Server"}},"files":{"src/app.ts":"2018-12-17T05:13:22.639Z","src/Server.ts":"2018-12-17T05:13:22.639Z","tests/Server.test.ts":"2018-12-17T05:13:22.639Z","src/routes/helloworld.ts":"2018-12-17T05:13:22.639Z","src/routes/index.ts":"2018-12-17T05:13:22.639Z"}}
