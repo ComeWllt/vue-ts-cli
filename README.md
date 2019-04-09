@@ -7,7 +7,7 @@ See Front-End [documentation](/lib/README.md) for more info about the template.
 
 ```
 npm run scratch
-create-platform
+create-front
 ```
 
 ### Development of the template codebase
